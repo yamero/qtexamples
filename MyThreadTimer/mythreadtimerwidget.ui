@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyThreadTimerWidget</class>
+ <widget class="QWidget" name="MyThreadTimerWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>497</width>
+    <height>503</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MyThreadTimerWidget</string>
+  </property>
+  <widget class="QLCDNumber" name="lcdNumber">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>160</y>
+     <width>221</width>
+     <height>81</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startPushButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>300</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stopPushButton">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>300</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
